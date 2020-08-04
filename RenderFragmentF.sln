@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{562952EC-EB47-4AE0-9B41-8A5D49B536AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{29CCA4B4-F982-4879-835C-48E7FB72642A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderFragementF", "src\RenderFragementF\RenderFragementF.csproj", "{61E7A877-DBA7-46C4-A472-95B1A463FF08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29CCA4B4-F982-4879-835C-48E7FB72642A} = {562952EC-EB47-4AE0-9B41-8A5D49B536AC}
+		{61E7A877-DBA7-46C4-A472-95B1A463FF08} = {29CCA4B4-F982-4879-835C-48E7FB72642A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61E7A877-DBA7-46C4-A472-95B1A463FF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E7A877-DBA7-46C4-A472-95B1A463FF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E7A877-DBA7-46C4-A472-95B1A463FF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E7A877-DBA7-46C4-A472-95B1A463FF08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
