@@ -1,0 +1,11 @@
+<h5 class="card-title" @attributes="@Attributes">
+    @ChildContent
+</h5>
+
+@code {
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object> Attributes { get; set; }
+    
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}

@@ -1,0 +1,27 @@
+@page "/example"
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            @Card("Title 1")("Text 1.")
+            @Card("Title 2")("Text 2.")
+        </div>
+    </div>
+</div>
+
+@code {
+    private Func<string, RenderFragment> Card(string title)
+    {
+        return text =>
+            @<Card>
+                <CardBody>
+                    <CardTitle>
+                        @title
+                    </CardTitle>
+                    <CardText>
+                        @text
+                    </CardText>
+                </CardBody>
+            </Card>;
+    }
+}
